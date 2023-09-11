@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css task4</title>
+    <style>
+        #mySidenav a {
+          position:absolute;
+          left: -70px;
+          transition: 0.5s;
+          padding: 14px;
+          width: 90px;
+          text-decoration: none;
+          font-size: 23px;
+          color: white;
+          border-radius: 0 5px 5px 0;
+        }
+
+        #mySidenav a:hover {
+            left: 0;
+        }
+        
+        #c{
+            top:20px;
+            background-color:#04AA6D;
+        }
+
+        #java{
+            top:80px;
+            background-color:#2196F3;
+        }
+
+        #html{
+            top:140px;
+            background-color:#f44336;
+        }
+
+        #css{
+            top:200px;
+            background-color:#555;
+        }
+        
+        .b{
+            margin-left:80px;
+        }
+    </style>
+</head>
+<body>
+    <div id="mySidenav">
+        <a href="https://www.c++.com" id="c">c++</a>
+        <a href="https://www.Java.com" id="java">Java</a>
+        <a href="https://www.HTML.com" id="html">HTML</a>
+        <a href="https://www.CSS.com" id="css">CSS</a>
+      </div>
+      <div class="b">
+        <h2>Hoverable Sidenav Buttons</h2>
+        <h3>Hover over the buttons in the left side navigation to open them.</h3>
+      </div>
+</body>
+</html>
